@@ -7,7 +7,7 @@
 | Security features | | Limited | Built-in security vulnerability scanning | No | No |
 | SSO support | Yes | Yes | Yes | Yes | Yes |
 | Pricing |  | Paid only (individual & business licenses) | Free for individuals, paid for enterprises | Free(limited) for individuals, paid for enterprises | Free for individuals, paid for enterprises  |
-| Security | SOC 2 Type II; ISO 27001, 27017, 27018, 27701 [(see details)](https://cloud.google.com/gemini/docs/codeassist/security-privacy-compliance) | ISO 27001, CSA Star Level 2 SOC 2 Type 2, TISAX [(see details)](https://ghec.github.trust.page/) | SOC 2 Type II; ISO 27001, 27017, 27018; FedRAMP | SOC 2 Type II | SOC 2 Type \|\| |
+| Security | SOC 2 Type II; ISO 27001, 27017, 27018, 27701 [(see details)](https://cloud.google.com/gemini/docs/codeassist/security-privacy-compliance) | SOC 2 Type 2, ISO 27001; CSA Star Level 2; TISAX [(see details)](https://ghec.github.trust.page/) | SOC 2 Type II; ISO 27001, 27017, 27018; FedRAMP | SOC 2 Type II | SOC 2 Type \|\| |
 | Disallow to store / train on your code |  |  |  | Possible if [privacy mode](https://docs.cursor.com/account/privacy) enabled | |
 | On-prem usage | | |  | No | Yes |
 | Post-training on local source code |  |  |  | | |
