@@ -1,7 +1,7 @@
 
 | Product Name | Gemini CodeAssist | GitHub Copilot | Amazon Q (CodeWhisperer) | Cursor | Qodo (Codium) |
 | -- | -- | -- | -- | -- | -- |
-| AI Model | Google Gemini | OpenAI Codex (GPT-based) | AWS LLM | Custom cursor model (free); [other providers](https://docs.cursor.com/settings/models) | [several providers](https://docs.qodo.ai/qodo-documentation/qodo-gen/qodo-gen-chat/model-selection) |
+| AI Model | Google Gemini | OpenAI Codex (GPT-based) | AWS LLM | Custom cursor model (free); [other providers](https://docs.cursor.com/settings/models) | [Several providers](https://docs.qodo.ai/qodo-documentation/qodo-gen/qodo-gen-chat/model-selection) |
 | Supported Languages | [Multi-language](https://cloud.google.com/gemini/docs/codeassist/supported-languages) | Multi-language | Multi-language, AWS SDK support | Multi-language | Multi-language|
 | IDE integration | VS Code, JetBrains [(see details)](https://cloud.google.com/gemini/docs/codeassist/supported-languages) | VS Code, JetBrains, Neovim  | VS Code, JetBrains  | VS Code | VS Code, JetBrains |
 | Security features | | Limited | Built-in security vulnerability scanning | No | No |
