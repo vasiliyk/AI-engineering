@@ -21,7 +21,7 @@ While pass@100 with the high temperature of 0.8 leads to better results (pass@k 
 
 ### MBPP (Mostly Basic Python Programming )
 The [MBPP](https://arxiv.org/pdf/2108.07732v1) dataset created by Google contains 974 programming tasks, designed to be solvable by entry-level programmers.
-Each problem consists of a task description, code solution, and 3 unit tests.
+Each problem consists of a task description, code solution, and 3 unit tests. 499 problems of the set are used for models testing.
 
 ### Related
 1. Gemini model architecture and HumanEval testing (May 2024): https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
