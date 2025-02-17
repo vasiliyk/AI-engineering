@@ -7,7 +7,6 @@
 
 ## The approach used for comparison
 For comparison, I use the pass@1 metric with a low temperature of 0.2 and datasets from HumanEval and MBPP benchmarks. 
-
 I deliberately don't use APPS dataset as it seems we are far yet from good pass rates even for introductory-level problems.
 
 
