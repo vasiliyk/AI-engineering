@@ -1,8 +1,8 @@
 
-| Model | GitHub Copilot (gpt-4-turbo) | Google Code Assist | Grok 2-latest (grok-2-1212) | Grok 3- latest (grok-3-xxxx)|
+| Model | GitHub Copilot (gpt-4-turbo) | Google Code Assist | Grok 2-latest (grok-2-1212) | Grok 3-latest (grok-3-xxxx)|
 | -- | -- | -- | -- | -- |
-| humanEval pass@1, T=0.2, TopP=0.95 | 89% | 84 | 85% | ?? | 
-| MBPP pass@1, T=0.2, TopP=0.95 | ?? | ?? | ?? | ?? | 
+| humanEval pass@1 | 89% | 84% | 85% | ?? | 
+| MBPP pass@1 | ?? | ?? | ?? | ?? | 
 
 
 ## The approach used for comparison
@@ -21,3 +21,5 @@ While pass@100 with the high temperature of 0.8 leads to better results (pass@k 
 
 ### MBPP
 
+### Related
+Gemini model architecture and HumanEval testing (May 2024): https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
