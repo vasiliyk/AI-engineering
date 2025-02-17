@@ -23,4 +23,4 @@ While pass@100 with the high temperature of 0.8 leads to better results (pass@k 
 
 
 ### Related
-Gemini model architecture and HumanEval testing (May 2024): https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
+1. Gemini model architecture and HumanEval testing (May 2024): https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
