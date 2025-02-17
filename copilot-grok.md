@@ -19,5 +19,5 @@ While pass@100 with the high temperature of 0.8 leads to better results (pass@k 
 
 | Model | GitHub Copilot (gpt-4-turbo) | Grok 2-latest (grok-2-1212) | Grok 3- latest (grok-3-xxxx)|
 | -- | -- | -- | -- | 
-| pass@1, T=0.2, TopP=0.95 | 895 | 85% | ?? | 
+| pass@1, T=0.2, TopP=0.95 | 89% | 85% | ?? | 
 
