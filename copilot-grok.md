@@ -19,7 +19,7 @@ And optimal temperature for pass@1 is T∗ = 0.2 and the optimal temperature for
 
 While pass@100 with the high temperature of 0.8 leads to better results (pass@k rewars only whether the model generates any correct solution) I prefer pass@1 with low temperature of 0.2 to get more reliable code (as reliable as training data) due to the lesser probability or performance/memory degradation or security vulnerability introduced by randomness.
 
-### MBPP
+### MBPP (Mostly Basic Python Programming )
 
 
 ### Related
