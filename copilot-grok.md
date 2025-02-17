@@ -8,7 +8,6 @@ Pass@k can be interpreted as the result of evaluating the best out of k samples,
 
 They determined that when evaluating pass@k, it is important to optimize sampling temperature for the particular value of k. 
 The higher temperatures are optimal for larger k, because the resulting set of samples has higher diversity, and the metric rewards only whether the model generates any correct solution (see Pass@K vs K, temperature).
-
 And optimal temperature for pass@1 is T∗ = 0.2 and the optimal temperature for pass@100 is T∗ = 0.8.
 
 While pass@100 with the high temperature of 0.8 leads to better results (pass@k rewars only whether the model generates any correct solution) I prefer pass@1 with low temperature of 0.2 to get more reliable code (as reliable as training data) due to the lesser probability or performance/memory degradation of security vulnerability introduced by randomness.
