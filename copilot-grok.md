@@ -1,8 +1,8 @@
 
 | Model | GitHub Copilot (gpt-4-turbo) | Google Code Assist | Grok 2-latest (grok-2-1212) | Grok 3-latest (grok-3-xxxx)|
 | -- | -- | -- | -- | -- |
-| humanEval pass@1 | 89% | 84% | 85% | ?? | 
-| MBPP pass@1 | ?? | ?? | ?? | ?? | 
+| humanEval pass@1, T=0.2, TopP=0.95 | 89% | ?? | 85% | ?? | 
+| MBPP pass@1, T=0.2, TopP=0.95 | ?? | ?? | ?? | ?? | 
 
 
 ## The approach used for comparison
@@ -20,6 +20,7 @@ And optimal temperature for pass@1 is T∗ = 0.2 and the optimal temperature for
 While pass@100 with the high temperature of 0.8 leads to better results (pass@k rewars only whether the model generates any correct solution) I prefer pass@1 with low temperature of 0.2 to get more reliable code (as reliable as training data) due to the lesser probability or performance/memory degradation or security vulnerability introduced by randomness.
 
 ### MBPP
+
 
 ### Related
 Gemini model architecture and HumanEval testing (May 2024): https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
