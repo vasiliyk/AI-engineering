@@ -17,8 +17,7 @@ The graph that shows pass@k against the number of samples k and the sampling tem
 While pass@100 with the high temperature of 0.8 leads to better results (pass@k rewars only whether the model generates any correct solution) I prefer pass@1 with low temperature of 0.2 to get more reliable code (as reliable as training data) due to the lesser probability or performance/memory degradation of security vulnerability introduced by randomness.
 
 
-| Model | GitHub Copilot | Grok 2-latest (grok-2-1212) | Grok 3- latest (grok-3-xxxx)|
+| Model | GitHub Copilot (gpt-4-turbo) | Grok 2-latest (grok-2-1212) | Grok 3- latest (grok-3-xxxx)|
 | -- | -- | -- | -- | 
-| aa | aa | aa | aa | 
-
+| pass@1, T=0.2, TopP=0.95 | 895 | 85% | ?? | 
 
