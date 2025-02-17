@@ -6,17 +6,14 @@ It consists of definition of pass@k metric and a set of 164 programming problems
 
 Pass@k can be interpreted as the result of evaluating the best out of k samples, where the best sample is picked by an oracle with prior knowledge of the unit tests.
 
+They determined that when evaluating pass@k, it is important to optimize sampling temperature for the particular value of k. 
+The higher temperatures are optimal for larger k, because the resulting set of samples has higher diversity, and the metric rewards only whether the model generates any correct solution.
+And optimal temperature for pass@1 is T∗ = 0.2 and the optimal temperature for pass@100 is T∗ = 0.8.
 
-They determined that the optimal temperature for pass@1 is T∗ = 0.2 and the optimal temperature for pass@100 is T∗ = 0.8 (see graph). 
+The graph that shows pass@k against the number of samples k and the sampling temperature. 
 ![passes vs temperature](images/samples_passes.png)
 
- 
-There are 2 proposed ways to work 
-I prefer pass@1 with low temperature to get more reliable code (as reliable as training data) due to the lesser probability or performance/memory degradation of security vulnerability introduced by randomness.
-
-
-pass@1 with TopP 0.95 + temperature of 0.2 as recommended for pass@1 by OpenAI in HumanEval paper 
-
+While pass@100 with the high temperature of 0.8 leads to better results (pass@k rewars only whether the model generates any correct solution) I prefer pass@1 with low temperature of 0.2 to get more reliable code (as reliable as training data) due to the lesser probability or performance/memory degradation of security vulnerability introduced by randomness.
 
 | Model | Gemini CodeAssist | GitHub Copilot | Amazon Q (CodeWhisperer) | Cursor | Qodo (Codium) |
 | -- | -- | -- | -- | -- | -- |
