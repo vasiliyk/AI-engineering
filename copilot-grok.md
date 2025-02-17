@@ -1,8 +1,8 @@
 
-| Model | GitHub Copilot (gpt-4-turbo) | Grok 2-latest (grok-2-1212) | Grok 3- latest (grok-3-xxxx)|
+| Model | GitHub Copilot (gpt-4-turbo) | Google Code Assist | Grok 2-latest (grok-2-1212) | Grok 3- latest (grok-3-xxxx)|
 | -- | -- | -- | -- | 
-| humanEval pass@1, T=0.2, TopP=0.95 | 89% | 85% | ?? | 
-| MBPP pass@1, T=0.2, TopP=0.95 | ?? | ?? | ?? | 
+| humanEval pass@1, T=0.2, TopP=0.95 | 89% | 84 | 85% | ?? | 
+| MBPP pass@1, T=0.2, TopP=0.95 | ?? | ?? | ?? | ?? | 
 
 
 ## The approach used for comparison
