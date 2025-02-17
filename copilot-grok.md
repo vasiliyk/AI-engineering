@@ -10,10 +10,14 @@ They determined that when evaluating pass@k, it is important to optimize samplin
 The higher temperatures are optimal for larger k, because the resulting set of samples has higher diversity, and the metric rewards only whether the model generates any correct solution.
 And optimal temperature for pass@1 is T∗ = 0.2 and the optimal temperature for pass@100 is T∗ = 0.8.
 
-The graph that shows pass@k against the number of samples k and the sampling temperature. 
+The graph that shows pass@k against the number of samples k and the sampling temperature: 
 ![passes vs temperature](images/samples_passes.png)
+
 
 While pass@100 with the high temperature of 0.8 leads to better results (pass@k rewars only whether the model generates any correct solution) I prefer pass@1 with low temperature of 0.2 to get more reliable code (as reliable as training data) due to the lesser probability or performance/memory degradation of security vulnerability introduced by randomness.
 
-| Model | Gemini CodeAssist | GitHub Copilot | Amazon Q (CodeWhisperer) | Cursor | Qodo (Codium) |
+
+| Model | GitHub Copilot | Grok 2-latest (grok-2-1212) | Grok 3- latest (grok-3-xxxx)
 | -- | -- | -- | -- | -- | -- |
+| aa | aa | aa | aa | aa | aa |
+
