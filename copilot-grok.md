@@ -1,7 +1,7 @@
 
 | Model | GitHub Copilot (gpt-4-turbo) | Google Code Assist (Gemini 1.5 pro) | Grok 2-latest (grok-2-1212) | Grok 3-latest (grok-3-xxxx)|
 | -- | -- | -- | -- | -- |
-| humanEval pass@1, T=0.2, TopP=0.95 | 89% | ?? | 85% | ?? | 
+| humanEval pass@1, T=0.2, TopP=0.95 | 89% | 84% | 85% | ?? | 
 | MBPP pass@1, T=0.2, TopP=0.95 | ?? | ?? | ?? | ?? | 
 
 
@@ -30,5 +30,7 @@ The dataset is similar to HumanEval but more closely mimics test docstrings of p
 
 
 ### Related
-1. Gemini model architecture and HumanEval testing (May 2024): https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
-2. Measuring Coding Challenge Competence With APPS https://arxiv.org/pdf/2105.09938
+1. Gemini model architecture (including HumanEval testing) (May 2024): https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
+2. HumanEval benchmark: https://arxiv.org/abs/2107.03374
+3. APPS benchmark: https://arxiv.org/pdf/2105.09938
+4. LCB benchmark: https://livecodebench.github.io/
