@@ -1,9 +1,9 @@
 
-| Model | Gpt-4o | Gemini 1.5 pro | Gemini 2 pro | Grok 2-latest (grok-2-1212) | Grok 3-latest (grok-3-xxxx)|
-| -- | -- | -- | -- | -- | -- |
-| HumanEval pass@1, T=0.2, topP=0.95 | 89% | 84% | 85% | ?? | ?? |
-| MBPP pass@1, T=0.2, topP=0.95 | ?? | ?? | ?? | ?? | ?? |
-| LCB pass@1, T=0.2, topP=0.95 | ?? | ?? | ?? | ?? | ?? |
+| Model | Gpt-4o | Gemini 1.5 pro | Gemini 2.0 Flash | Claude 3.5 Sonnet| Grok 2-latest (grok-2-1212) | Grok 3-latest (grok-3-xxxx)|
+| -- | -- | -- | -- | -- | -- | -- |
+| HumanEval pass@1, T=0.2, topP=0.95 | 89% | 84% | 85% | ?? | ?? | ?? |
+| MBPP pass@1, T=0.2, topP=0.95 | ?? | ?? | ?? | ?? | ?? | ?? |
+| LCB pass@1, T=0.2, topP=0.95 | ?? | ?? | ?? | ?? | ?? | ?? |
 
 
 ## The approach used for comparison
