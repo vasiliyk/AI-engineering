@@ -7,7 +7,7 @@
 
 
 ## The approach used for comparison
-For comparison, I use the pass@1 metric with a low temperature of 0.2 and datasets from HumanEval and MBPP benchmarks. 
+For comparison, I use the pass@1 metric with a low temperature of 0.2 and datasets from HumanEval, MBPP, and LCB benchmarks. 
 I deliberately don't use APPS dataset as it seems we are far yet from good pass rates even for introductory-level problems, see https://arxiv.org/pdf/2105.09938.
 
 Pass@k can be interpreted as the result of evaluating the best out of k samples, where the best sample is picked by an oracle with prior knowledge of the unit tests.
